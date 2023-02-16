@@ -5,7 +5,7 @@ function print(text) {
 
 
 function isValid(name) {
-  if(name.length >= 4 && !(name.includes(' ')) && !(name == null)) {
+  if(!(name == null) && !(name.includes(' ')) && name.length >= 4) {
     return true
   } else {
     return false
