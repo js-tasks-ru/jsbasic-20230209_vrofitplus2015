@@ -5,7 +5,5 @@ function isEmpty(obj) {
   return true;
 }
 
-
-
-
+let schedule = {};
 isEmpty(schedule);
