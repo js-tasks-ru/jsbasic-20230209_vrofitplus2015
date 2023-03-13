@@ -1,4 +1,3 @@
-
 export default class UserTable {
   constructor(rows) {
     this.rows = rows;
