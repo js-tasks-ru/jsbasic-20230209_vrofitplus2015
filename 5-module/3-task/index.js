@@ -19,11 +19,13 @@ function initCarousel() {
 
   function next() {
       currentSlideNumber++;
+      console.log(currentSlideNumber)
       moveSlide();
   }
 
   function prev() {
       currentSlideNumber--;
+      console.log(currentSlideNumber)
       moveSlide();
   }
 
